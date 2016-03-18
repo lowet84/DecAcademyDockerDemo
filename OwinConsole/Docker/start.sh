@@ -1,2 +1,2 @@
-﻿cd /var/Program
+cd /var/Program
 mono ./OwinConsole.exe
