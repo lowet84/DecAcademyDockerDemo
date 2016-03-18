@@ -89,7 +89,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Build\Debug.zip" />
+    <None Include="Docker\build.sh" />
+    <None Include="Docker\Debug.zip" />
+    <None Include="Docker\run.sh" />
+    <None Include="Docker\start.sh" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +105,7 @@
     <Content Include="Content\Index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Docker\Dockerfile" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
